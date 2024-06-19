@@ -1,0 +1,53 @@
+.container {
+    padding: 20px;
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+}
+
+.title {
+    color: var(--textSoft);
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    padding: 10px;
+}
+
+.tr > td {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userImage {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.status {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.pending {
+    background-color: #f7cb7375;
+}
+
+.done {
+    background-color: #afd6ee75;
+}
+
+.cancelled {
+    background-color: #f7737375;
+}
